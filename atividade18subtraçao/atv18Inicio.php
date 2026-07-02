@@ -3,14 +3,14 @@
 include "conexao.php";
 
 
-$numero1 = 250;
-$numero2 = 120;
-$resultado = $numero1 + $numero2;
+$numero1 = 4;
+$numero2 = 2;
+$resultado = $numero1 * $numero2;
 
 
 //linguagem sql
 
-$sql =" INSERT INTO calculo(numero1, numero2, resultado)
+$sql =" INSERT INTO soma(numero1, numero2, resultado)
 VALUES($numero1, $numero2,  $resultado)";
 
 

@@ -5,7 +5,7 @@ include "conexao.php";
 
 $numero1 = 10;
 $numero2 = 13;
-$resultado = $numero1 + $numero2;
+$resultado = $numero1 * $numero2;
 
 
 //linguagem sql
