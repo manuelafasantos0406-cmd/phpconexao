@@ -24,9 +24,9 @@
 
 
         //Comando sql
-        $sql = "INSERT INTO soma ( numero1 , numero2 l, resultado )
+        $sql = "INSERT INTO soma (numero1, numero2, resultado)
         VALUES($num1, $num2, $soma)";
-        
+
 
         //Guardar na tabela do banco de dados 
         $conexao->query($sql);
